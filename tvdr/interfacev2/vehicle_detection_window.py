@@ -1,6 +1,6 @@
 import cv2
 
-from PySide2.QtWidgets import (
+from PySide6.QtWidgets import (
     QDialog,
     QGridLayout,
     QVBoxLayout,
@@ -16,9 +16,9 @@ from PySide2.QtWidgets import (
     QMessageBox,
     QStyle,
 )
-from PySide2.QtCore import Qt
-from PySide2 import QtGui
-from PySide2.QtGui import QPixmap, QImage
+from PySide6.QtCore import Qt
+from PySide6 import QtGui
+from PySide6.QtGui import QPixmap, QImage
 from copy import deepcopy
 
 from tvdr.core import VehicleDetectionConfig, VehicleDetection
