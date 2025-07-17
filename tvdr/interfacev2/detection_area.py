@@ -28,12 +28,12 @@
 
 from typing import List
 import cv2
-from PySide2 import QtWidgets
-from PySide2 import QtCore
-from PySide2.QtCore import QLine, Qt, QPoint, QRect
-from PySide2.QtGui import QPainter, QPen, QBrush, QIcon, QPixmap
-from PySide2.QtWidgets import QLabel, QLayout, QMessageBox
-from PySide2 import QtGui
+from PySide6 import QtWidgets
+from PySide6 import QtCore
+from PySide6.QtCore import QLine, Qt, QPoint, QRect
+from PySide6.QtGui import QPainter, QPen, QBrush, QIcon, QPixmap
+from PySide6.QtWidgets import QLabel, QLayout, QMessageBox
+from PySide6 import QtGui
 import qtawesome as qta
 
 import numpy as np
